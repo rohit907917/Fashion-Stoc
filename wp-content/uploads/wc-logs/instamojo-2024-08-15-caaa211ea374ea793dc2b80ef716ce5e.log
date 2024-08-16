@@ -1,0 +1,16 @@
+2024-08-15T07:17:20+00:00 NOTICE Creating Instamojo Order for order id: 1266 CONTEXT: {"_legacy":true}
+2024-08-15T07:17:20+00:00 NOTICE Client ID: IvImxxxxxxxxxx | Client Secret: liWUxxxxxxxxxx | Testmode:   CONTEXT: {"_legacy":true}
+2024-08-15T07:17:29+00:00 NOTICE An error occurred on line 131 with message cURL Error Number: 35. Error message: Recv failure: Connection was reset. CONTEXT: {"_legacy":true}
+2024-08-15T07:17:29+00:00 NOTICE Traceback: ERROR at Processing cURL request
+Requesting  'https://www.instamojo.com/oauth2/token/' url using  'POST' method
+and Data:Array
+(
+    [client_id] => IvImUfqCV0EFs8FGMTdDiUwdVGRUJUDLeB1xmQFY
+    [client_secret] => liWUMwbqkir9hebbdZLgNFKwdClBqV4DmWHxWSVgxXHjCsX90pPiUDq4YLcoj5KeVHuigHDy5aSw4yZwwsFaM1nIc9ABeTnGqa9J6isCkLRZrthtKHQy2d02KlXavomV
+    [scopes] => all
+    [grant_type] => client_credentials
+)
+
+Headers are : 
+ErrorMessage(if any) : cURL Error Number: 35. Error message: Recv failure: Connection was reset.
+with Response Code:0 CONTEXT: {"_legacy":true}
